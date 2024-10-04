@@ -1,0 +1,18 @@
+[project]
+name = "variant-tally"
+version = "0.1.0"
+description = "Tally variants across laboratories"
+requires-python = "==3.12"
+dependencies = [
+    "boto3[crt]>=1.35.2",
+    "boto3-stubs[s3]>=1.35.2",
+    "ga4gh-vrs[extras]==2.0.0.dev1",
+    "polars>=1.5.0",
+    "psycopg2-binary>=2.9.9",
+    "pyhpo>=3.3.1",
+    "pysam>=0.22.1",
+    "rbloom>=1.5.1",
+    "s3fs>=0.4.2",
+    "seqrepo>=0.0.0",
+    "setuptools>=73.0.1",
+]

@@ -1,0 +1,4 @@
+contig,position,ref,alt,het_count,hom_count
+NC_000002.12,566583,T,C,10,11
+NC_000001.11,13595,A,G,1,2
+NC_000001.11,14773,C,T,3,4
